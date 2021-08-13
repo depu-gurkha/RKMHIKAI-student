@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/roboto"
+            android:text="Thank You!"
+            android:textSize="20sp"
+            android:textStyle="bold">
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:gravity="center">
+            <TextView
+                android:id="@+id/tv_first_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/raleway"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:text="Loading..."/>
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="wrap_content"></Space>
+            <TextView
+                android:id="@+id/tv_last_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/raleway"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:text="Loading...">
+            </TextView>
+        </LinearLayout>
+        <View
+            android:layout_height="0.5dp"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="#000000"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/raleway"
+            android:layout_marginBottom="10dp"
+            android:textSize="18dp"
+            android:text="Your RKMHIKAI account has been setup.">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/raleway"
+            android:layout_marginBottom="10dp"
+            android:textSize="18dp"
+            android:text="Please note down your RKMHIKAI ID">
+        </TextView>
+
+        <TextView
+            android:id="@+id/tv_participantid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/raleway"
+            android:text="RKMHIKAI ID"
+            android:textSize="20dp"
+            android:textStyle="bold"></TextView>
+
+
+
+        <Button
+            android:id="@+id/btn_goto_classroom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:text="Go To Classroom"
+            app:backgroundTint="@color/com_facebook_blue"
+            android:textColor="@color/white">
+
+        </Button>
+
+
+
+
+    </LinearLayout>
+</ScrollView>

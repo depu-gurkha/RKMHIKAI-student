@@ -1,0 +1,167 @@
+{
+  "project_info": {
+    "project_number": "434284353810",
+    "firebase_url": "https://rkmhikai.firebaseio.com",
+    "project_id": "rkmhikai",
+    "storage_bucket": "rkmhikai.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:434284353810:android:fa99a8614c29b1540e7bcb",
+        "android_client_info": {
+          "package_name": "com.example.hikaioffline"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "434284353810-8ppgehlnjav5elbkn7gvhtf6tupls3n3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hikaioffline",
+            "certificate_hash": "de8e8229a73b58a22e17549b28dfd9baa1abcb29"
+          }
+        },
+        {
+          "client_id": "434284353810-9qf0q61g7piev19qpplqab2ico3e2qa4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hikaioffline",
+            "certificate_hash": "a126c45dc890e9d0e2d7c1fc470683c561e104bf"
+          }
+        },
+        {
+          "client_id": "434284353810-6n8dlliojl3g0ifqu754vmeneblljcfq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRgplST2521cUN-x7baM_Yed8kuPqwezE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "434284353810-6n8dlliojl3g0ifqu754vmeneblljcfq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:434284353810:android:42f16c89bc996ad50e7bcb",
+        "android_client_info": {
+          "package_name": "com.part.roommyapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "434284353810-blkqe4t7dpgrfn9pb950kihpaqgdq4e1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.part.roommyapplication",
+            "certificate_hash": "de8e8229a73b58a22e17549b28dfd9baa1abcb29"
+          }
+        },
+        {
+          "client_id": "434284353810-6n8dlliojl3g0ifqu754vmeneblljcfq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRgplST2521cUN-x7baM_Yed8kuPqwezE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "434284353810-6n8dlliojl3g0ifqu754vmeneblljcfq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:434284353810:android:2512fe14f17445ee0e7bcb",
+        "android_client_info": {
+          "package_name": "com.part.simplefragment"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "434284353810-2gk9smeis4vicc7fnj6pk2jaqb9tn2g7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.part.simplefragment",
+            "certificate_hash": "de8e8229a73b58a22e17549b28dfd9baa1abcb29"
+          }
+        },
+        {
+          "client_id": "434284353810-6n8dlliojl3g0ifqu754vmeneblljcfq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRgplST2521cUN-x7baM_Yed8kuPqwezE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "434284353810-6n8dlliojl3g0ifqu754vmeneblljcfq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:434284353810:android:4478ab155c7ab8230e7bcb",
+        "android_client_info": {
+          "package_name": "online.rkmhikai"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "434284353810-vvvv37ta69ehgvl80r1qtea5lve6i9s7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "online.rkmhikai",
+            "certificate_hash": "a126c45dc890e9d0e2d7c1fc470683c561e104bf"
+          }
+        },
+        {
+          "client_id": "434284353810-6n8dlliojl3g0ifqu754vmeneblljcfq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRgplST2521cUN-x7baM_Yed8kuPqwezE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "434284353810-6n8dlliojl3g0ifqu754vmeneblljcfq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

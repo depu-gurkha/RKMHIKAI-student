@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="289dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/raleway"
+        android:gravity="center"
+        android:text="Upload Image"
+        android:textSize="20sp"
+        android:textStyle="bold"></TextView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardSelect"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:elevation="10dp"
+        app:cardCornerRadius="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="@drawable/cardview_border"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:background="@drawable/upload"
+                android:foregroundGravity="center">
+
+            </ImageView>
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:fontFamily="@font/roboto"
+                android:text="SELECT A FILE "
+                android:textSize="16sp"
+                android:textStyle="bold"></TextView>
+
+            <Button
+                android:id="@+id/btnSelect"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="20dp"
+                android:background="#0062cc"
+                android:fontFamily="@font/roboto"
+                android:text="select a file"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                app:backgroundTint="#454cad"></Button>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/crdUpload"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:elevation="10dp"
+        app:cardCornerRadius="10dp"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/cardview_border"
+            android:orientation="vertical">
+
+            <ImageView
+
+                android:id="@+id/ivPPhoto"
+                android:layout_width="212dp"
+                android:layout_height="168dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+
+                android:foregroundGravity="center">
+
+            </ImageView>
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+    <Button
+        android:id="@+id/btnUpload"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="20dp"
+        android:background="@drawable/cutsom_button"
+        android:gravity="center"
+        android:text="Upload and finish"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        app:backgroundTint="#0062cc">
+
+    </Button>
+    <ProgressBar
+        android:id="@+id/uploadProgress"
+        android:background="@color/com_facebook_blue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:visibility="gone"
+        android:backgroundTint="@color/com_facebook_blue"
+        android:indeterminateTint="@color/white"></ProgressBar>
+
+
+</LinearLayout>

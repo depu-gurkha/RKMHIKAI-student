@@ -1,0 +1,105 @@
+<resources>
+    <string name="app_name">RKMHIKAI</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_classroom">Class Room</string>
+    <string name="menu_Contact">Contact Us</string>
+    <string name="menu_About">About Us</string>
+    <string name="menu_Notification">Notification</string>
+    <string name="menu_Server_Address">Server Address</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="fb_login_protocol_scheme">fb642422099785638</string>
+    <string name="facebook_app_id">642422099785638</string>
+    <string-array name="Gender">
+        <item value="">Select Gender</item>
+        <item>Male</item>
+        <item>Female</item>
+        <item>Others</item>
+    </string-array>
+    <string-array name="classStudied">
+        <item>Select class</item>
+        <item>Class I</item>
+        <item>Class II</item>
+        <item>Class III</item>
+        <item>Class IV</item>
+        <item>Class V</item>
+        <item>Class VI</item>
+        <item>Class VII</item>
+        <item>Class VIII</item>
+        <item>Class IX</item>
+        <item>Class X</item>
+        <item>Class XI</item>
+        <item>Class XII</item>
+
+    </string-array>
+    <string-array name="stream">
+        <item>Select Stream</item>
+        <item>N/A</item>
+        <item>Science</item>
+        <item>Arts</item>
+        <item>Commerce</item>
+    </string-array>
+    <string-array name="District">
+        <item>Select District</item>
+        <item>West Jaintia Hills</item>
+        <item>East Jaintia Hills</item>
+        <item>East Khasi Hills</item>
+        <item>West Khasi Hills</item>
+        <item>South West Khasi Hills</item>
+        <item>Ri-Bhoi</item>
+        <item>North Garo Hills</item>
+        <item>East Garo Hills</item>
+        <item>South Garo Hills</item>
+        <item>West Garo Hills</item>
+        <item>South West Garo Hills</item>
+    </string-array>
+
+    <string-array name="Type">
+        <item>Select Type</item>
+        <item>Co-Education</item>
+        <item>Girls Only</item>
+        <item>Boys Only</item>
+    </string-array>
+    <string name="aboutHikai">
+
+\tThe Hybrid Interactive Knowledge Assimilation Initiative (HIKAI) being launched by Ramakrishna Mission to provide structured curriculum as per the Board syllabus to all school-going students in Meghalaya. You are aware that the schools are not allowed to function in normal mode by the Government fearing community spread of COVID19.\n
+        \tSo, the two centres of the Ramakrishna Mission in Meghalaya viz, the Sohra (Cherrapunjee) centre and the Shillong centre are combining their expertise to provide education through an innovative the Hybrid Interactive Knowledge Assimilation Initiative (HIKAI) from 17 August 2020 for any student in Meghalaya, who wants to use this facility. To begin with we are launching the program for classes IX to XII.
+    </string>
+    <string name="group1">Group1</string>
+    <string name="group2">Group2</string>
+    <string name="group3">Group3</string>
+    <string name="group4">Group4</string>
+    <string name="select_number">Select School</string>
+    <string name="search">Search</string>
+    <string name="check_inbox">Check your <b>inbox</b> to <b>verify</b> and <b>activate</b> your account.</string>
+    <string-array name="group1">
+        <item>Item1</item>
+    </string-array>
+    <string-array name="group2">
+        <item>Item1</item>
+    </string-array>
+    <string-array name="group3">
+        <item>Item1</item>
+    </string-array>
+    <string-array name="group4">
+        <item>Item1</item>
+    </string-array>
+    <!-- For contact page-->
+    <string name="rkm">Ramakrishna Mission Vivekananda Cultural Center, Shillong</string>
+    <string name="rkmaddress">Quinton Road, Pincode: 793001 \nMeghalaya India</string>
+    <!-- About -->
+    <string name="hikai"><font color="#263238">Hybrid Interactive Knowledge Assimilation Initiative</font></string>
+    <string name="about"><font color="#263238">The Hybrid Interactive Knowledge Assimilation Initiative</font><font color="#FF5733">(HIKAI)</font> being launched by Ramakrishna Mission to provide structured curriculum as per the Board syllabus to all school-going students in Meghalaya. You are aware that the schools are not allowed to function in normal mode by the Government fearing community spread of COVID19.</string>
+    <string name="about2">So, the two centres of the Ramakrishna Mission in Meghalaya viz, the Sohra (Cherrapunjee) centre and the Shillong centre are combining their expertise to provide education through an innovative the Hybrid Interactive Knowledge Assimilation Initiative (HIKAI) from 17 August 2020 for any student in Meghalaya, who wants to use this facility. To begin with we are launching the program for classes IX to XII.</string>
+    <!-- Developers And versions -->
+    <string name="version">Version 2.0(BETA)</string>
+    <string name="developed"></string>
+</resources>

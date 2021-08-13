@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/roboto"
+            android:text="Vital Information"
+            android:textSize="20sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:layout_marginTop="40dp"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/lDob"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@color/white"
+                app:hintEnabled="false">
+
+                <EditText
+                    android:id="@+id/dtepicker"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:drawableStart="@drawable/ic_baseline_calendar_today_24"
+                    android:drawableLeft="@drawable/ic_baseline_calendar_today_24"
+                    android:drawablePadding="12dp"
+                    android:focusable="false"
+                    android:hint="Select Date"
+                    android:inputType="textPersonName"
+                    android:padding="10dp"
+                    android:textColorHint="@color/light_gray"
+                    android:textSize="14sp"
+                    app:boxStrokeColor="@color/black"
+                    app:boxStrokeWidth="10dp"
+                    app:boxStrokeWidthFocused="1dp"
+                    app:endIconMode="clear_text"
+                    app:endIconTint="@color/black"
+                    app:hintTextColor="@color/black"
+                    app:startIconTint="@color/black">
+
+                </EditText>
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/lGender"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@color/white"
+                app:hintEnabled="false">
+
+                <EditText
+                    android:id="@+id/et_gender"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:drawableStart="@drawable/person"
+                    android:drawableLeft="@drawable/person"
+                    android:drawablePadding="12dp"
+                    android:focusable="false"
+                    android:hint="Select Gender"
+                    android:inputType="textPersonName"
+                    android:padding="10dp"
+                    android:textColorHint="@color/light_gray"
+                    android:textSize="14sp"
+                    app:boxStrokeColor="@color/black"
+                    app:boxStrokeWidth="10dp"
+                    app:boxStrokeWidthFocused="1dp"
+                    app:endIconMode="clear_text"
+                    app:endIconTint="@color/black"
+                    app:hintTextColor="@color/black"
+                    app:startIconTint="@color/black">
+
+                </EditText>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/lClass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@color/white"
+                app:hintEnabled="false">
+
+                <EditText
+                    android:id="@+id/et_class"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:clickable="true"
+                    android:drawableStart="@drawable/ic_menu_book_24"
+                    android:drawableLeft="@drawable/ic_menu_book_24"
+                    android:drawablePadding="12dp"
+                    android:focusable="false"
+                    android:hint="Select Class"
+                    android:inputType="textPersonName"
+                    android:padding="10dp"
+                    android:textColorHint="@color/light_gray"
+                    android:textSize="14sp"
+                    app:boxStrokeColor="@color/black"
+                    app:boxStrokeWidth="10dp"
+                    app:boxStrokeWidthFocused="1dp"
+                    app:endIconMode="clear_text"
+                    app:endIconTint="@color/black"
+                    app:hintTextColor="@color/black"
+                    app:startIconTint="@color/black">
+
+                </EditText>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/lStream"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@color/white"
+                app:hintEnabled="false">
+
+                <EditText
+                    android:id="@+id/et_stream"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:clickable="true"
+                    android:drawableStart="@drawable/stream"
+                    android:drawableLeft="@drawable/stream"
+                    android:drawablePadding="12dp"
+                    android:focusable="false"
+                    android:hint="Select Stream"
+                    android:inputType="textPersonName"
+                    android:padding="10dp"
+                    android:textColorHint="@color/light_gray"
+                    android:textSize="14sp"
+                    app:boxStrokeColor="@color/black"
+                    app:boxStrokeWidth="10dp"
+                    app:boxStrokeWidthFocused="1dp"
+                    app:endIconMode="clear_text"
+                    app:endIconTint="@color/black"
+                    app:hintTextColor="@color/black"
+                    app:startIconTint="@color/black">
+
+                </EditText>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                android:id="@+id/txtScError"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/ic_baseline_error_outline_24"
+                android:paddingStart="10dp"
+                android:text="Please Select Gender"
+                android:visibility="gone">
+
+            </TextView>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/lSchool"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@color/white"
+                app:hintEnabled="false">
+
+                <EditText
+                    android:id="@+id/et_school"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:clickable="true"
+                    android:drawableStart="@drawable/ic_baseline_school_24"
+                    android:drawableLeft="@drawable/ic_baseline_school_24"
+                    android:drawablePadding="12dp"
+                    android:focusable="false"
+                    android:hint="Select School"
+                    android:inputType="textPersonName"
+                    android:padding="10dp"
+                    android:textColorHint="@color/light_gray"
+                    android:textSize="14sp"
+                    app:boxStrokeColor="@color/black"
+                    app:boxStrokeWidth="10dp"
+                    app:boxStrokeWidthFocused="1dp"
+                    app:endIconMode="clear_text"
+                    app:endIconTint="@color/black"
+                    app:hintTextColor="@color/black"
+                    app:startIconTint="@color/black">
+
+                </EditText>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <Button
+                android:id="@+id/btn_signUp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/cutsom_button"
+                android:fontFamily="@font/raleway"
+                android:text="Save \&amp; Next"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                app:backgroundTint="#007bff" />
+            <ProgressBar
+                android:id="@+id/vitalProgress"
+                android:background="@color/com_facebook_blue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:visibility="gone"
+                android:backgroundTint="@color/com_facebook_blue"
+                android:indeterminateTint="@color/white"></ProgressBar>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

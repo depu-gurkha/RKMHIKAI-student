@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:gravity="center"
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:paddingStart="30dp"
+        android:paddingEnd="30dp"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/res_HighScore"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:padding="10dp"
+            android:text="High Score:"
+            android:textAlignment="textStart"
+            android:textColor="#000"
+            android:textSize="30sp"
+            android:fontFamily="@font/raleway"
+             />
+
+        <TextView
+            android:id="@+id/res_NoQues"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:padding="10dp"
+            android:text="Total Questions:"
+            android:textAlignment="textStart"
+            android:textColor="#000"
+            android:textSize="25sp"
+            android:fontFamily="@font/raleway"
+             />
+
+        <TextView
+            android:id="@+id/res_Correct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:padding="10dp"
+            android:text="Correct:"
+            android:textAlignment="textStart"
+            android:textColor="#000"
+            android:textSize="25sp"
+            android:fontFamily="@font/raleway"
+             />
+
+        <TextView
+            android:id="@+id/res_Wrong"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:padding="10dp"
+            android:text="Wrong:"
+            android:textAlignment="textStart"
+            android:textColor="#000"
+            android:textSize="25sp"
+            android:fontFamily="@font/raleway"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="2"
+            android:padding="10dp">
+
+            <Button
+                android:id="@+id/bt_result_play_again"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/rounded_button"
+                android:fontFamily="@font/roboto"
+                android:text="Play Again"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:backgroundTint="#007bff" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"/>
+
+            <Button
+                android:id="@+id/bt_result_main_menu"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/rounded_button"
+                android:text="Main Menu"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:backgroundTint="#007bff"
+                android:fontFamily="@font/roboto"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

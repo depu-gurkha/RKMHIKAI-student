@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/action_search"
+        android:title="Search"
+        android:icon="@drawable/ic_search"
+        app:showAsAction="ifRoom|collapseActionView"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        android:visible="false"
+        ></item>
+<!--    <item  android:id="@+id/item1"-->
+<!--        android:title="Insert"/>-->
+<!--    <item  android:id="@+id/item2"-->
+<!--        android:title="Generate Json"/>-->
+<!--    <item  android:id="@+id/item3"-->
+<!--        android:title="Quiz"-->
+<!--        />-->
+<!--    <item android:id="@+id/item4"-->
+<!--        android:title="Player"></item>-->
+</menu>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_classroom"
+            android:title="@string/menu_classroom"
+           />
+        <item
+            android:id="@+id/nav_contact"
+            android:icon="@drawable/phone"
+            android:title="@string/menu_Contact"
+            android:iconTint="@color/black"
+            />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_baseline_error_outline_24"
+            android:title="@string/menu_About"
+            android:iconTint="@color/black"
+          />
+        <item
+            android:id="@+id/nav_notification"
+            android:icon="@drawable/ic_baseline_notifications_24"
+            android:title="@string/menu_Notification"
+            />
+    </group>
+    <group android:id="@+id/grp2">
+        <item
+            android:id="@+id/nav_server_address"
+            android:icon="@drawable/ic_database"
+            android:title="@string/menu_Server_Address"/>
+        <item
+            android:id="@+id/nav_go_to_website"
+            android:icon="@drawable/ic_www"
+            android:title="Go To Website"/>
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/ic_baseline_logout_24"
+            android:title="LogOut"
+            />
+    </group>
+</menu>

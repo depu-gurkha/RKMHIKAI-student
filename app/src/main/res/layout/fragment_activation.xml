@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/roboto"
+            android:text="VERIFY AND ACTIVATE ACCOUNT"
+            android:textSize="20sp"
+            android:textStyle="bold">
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:gravity="center">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/raleway"
+                    android:textSize="18dp"
+                    android:text="Welcome! ">
+                </TextView>
+                <TextView
+                    android:id="@+id/tv_user_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/raleway"
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+                    android:text="User Name">
+                </TextView>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/raleway"
+            android:textSize="18dp"
+            android:text="Please note down your RKMHIKAI ID">
+        </TextView>
+
+        <TextView
+            android:id="@+id/tv_rkmhikai_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/raleway"
+            android:text="RKMHIKAI ID"
+            android:textSize="20dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/raleway"
+            android:textSize="18dp"
+            android:text="and your Password is">
+        </TextView>
+
+        <TextView
+            android:id="@+id/tv_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:fontFamily="@font/raleway"
+            android:text="RKMHIKAI ID"
+            android:textSize="18dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/raleway"
+            android:textSize="18dp"
+            android:text="We now need to verify your email address.">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/raleway"
+            android:textSize="18dp"
+            android:text="We sent an email to">
+        </TextView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="15dp"
+            android:gravity="center">
+            <TextView
+                android:id="@+id/tv_email_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/raleway"
+                android:layout_marginRight="10dp"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:text="Email Address"
+                android:textColor="@color/com_facebook_blue">
+            </TextView>
+            <ImageView
+                android:id="@+id/iv_edit_email"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/edit">
+            </ImageView>
+        </LinearLayout>
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:fontFamily="@font/raleway"
+            android:textSize="18dp"
+            android:text="@string/check_inbox">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/raleway"
+            android:textSize="18dp"
+            android:text="Please click the button or link in the email to\ncomplete the sign-up process.">
+        </TextView>
+
+        <Button
+            android:id="@+id/btn_resend_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:text="Resend Email"
+            app:backgroundTint="@color/com_facebook_blue"
+            android:textColor="@color/white">
+
+        </Button>
+        <ProgressBar
+            android:id="@+id/activation_progress"
+            android:background="@color/com_facebook_blue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:visibility="gone"
+            android:backgroundTint="@color/com_facebook_blue"
+            android:indeterminateTint="@color/white"></ProgressBar>
+
+        <TextView
+            android:id="@+id/tv_NoEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/raleway"
+            android:gravity="center"
+            android:text="Not getting the email? check your spam/junk folder. If you don't find it there within 10 minutes, do not hesitate to contact us"
+            android:textSize="18dp">
+
+
+
+        </TextView>
+
+
+    </LinearLayout>
+</ScrollView>

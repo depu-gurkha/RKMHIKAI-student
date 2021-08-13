@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardOTP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="5dp"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            tools:context=".Registration.VerifyOTP">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:layout_marginBottom="40dp"
+                android:fontFamily="@font/roboto"
+                android:gravity="center"
+                android:text="Please enter the OTP"
+                android:textSize="30sp"
+                android:textStyle="bold"></TextView>
+            <TextView
+                android:gravity="center"
+                android:text="OTP Send to:"
+                android:id="@+id/otpSendPhone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/firstNumber"
+                    android:layout_width="40dp"
+                    android:layout_height="60dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/otp_verify_edit_text"
+                    android:editable="true"
+                    android:gravity="center"
+                    android:imeOptions="actionNext"
+                    android:inputType="number"
+                    android:maxLength="1"
+                    android:textSize="30sp">
+
+                </EditText>
+
+                <EditText
+                    android:id="@+id/secondNumber"
+                    android:layout_width="40dp"
+                    android:layout_height="60dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/otp_verify_edit_text"
+                    android:editable="true"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:maxLength="1"
+                    android:nextFocusRight="@id/thirdNumber"
+                    android:textSize="30sp">
+
+                </EditText>
+
+                <EditText
+                    android:id="@+id/thirdNumber"
+                    android:layout_width="40dp"
+                    android:layout_height="60dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/otp_verify_edit_text"
+                    android:editable="true"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:maxLength="1"
+                    android:nextFocusRight="@id/fourthNumber"
+                    android:textSize="30sp">
+
+                </EditText>
+
+                <EditText
+                    android:id="@+id/fourthNumber"
+                    android:layout_width="40dp"
+                    android:layout_height="60dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/otp_verify_edit_text"
+                    android:editable="true"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:maxLength="1"
+                    android:nextFocusRight="@id/fifthNumber"
+                    android:textSize="30sp">
+
+                </EditText>
+
+                <EditText
+                    android:id="@+id/fifthNumber"
+                    android:layout_width="40dp"
+                    android:layout_height="60dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/otp_verify_edit_text"
+                    android:editable="true"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:maxLength="1"
+                    android:nextFocusRight="@id/sixthNumber"
+                    android:textSize="30sp">
+
+                </EditText>
+
+                <EditText
+                    android:id="@+id/sixthNumber"
+                    android:layout_width="40dp"
+                    android:layout_height="60dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/otp_verify_edit_text"
+                    android:editable="true"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:maxLength="1"
+                    android:textSize="30sp">
+
+                </EditText>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_verify"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/cutsom_button"
+                android:fontFamily="@font/raleway"
+                android:text="Verify otp"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                app:backgroundTint="#007bff" />
+
+            <TextView
+                android:id="@+id/tvResend"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:fontFamily="@font/raleway"
+                android:gravity="center"
+                android:text="You can generate new code Resend and edit"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textStyle="bold">
+
+            </TextView>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardWaiting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:elevation="0dp"
+        android:visibility="visible"
+        app:cardBackgroundColor="#f8f9fa">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="20dp"
+                android:gravity="center"
+                android:text="PLEASE WAIT!"
+                android:textSize="16sp">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="10dp"
+                android:gravity="center"
+                android:text="RKMHIKAI sending verification to"
+                android:textSize="14sp">
+
+            </TextView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/etPhoneEdit"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:background="#00000000"
+                    android:layout_weight="9"
+                    android:drawablePadding="20dp"
+                    android:gravity="center"
+                    android:paddingEnd="14dp"
+                    android:inputType="number"
+                    android:maxLength="10"
+                    android:text="Connecting..."
+                    android:textSize="30sp"></EditText>
+
+                <ImageButton
+                    android:id="@+id/ivButton"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:background="@drawable/edit"
+                    android:visibility="visible"
+                    android:layout_width="0dp"></ImageButton>
+
+
+            </LinearLayout>
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/loading"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="10dp"
+                android:src="@drawable/progress"></pl.droidsonroids.gif.GifImageView>
+
+            <Button
+                android:id="@+id/resend"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:backgroundTint="@color/com_facebook_blue"
+                android:text="resend"
+                android:textColor="@color/white"
+                app:backgroundTint="@color/com_facebook_blue"></Button>
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardVerifyNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Please enter Your phone Number"
+                android:gravity="center"
+                android:textSize="16sp">
+
+            </TextView>
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/lPasswordSet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:hintEnabled="false">
+
+                <EditText
+                    android:id="@+id/numberSet"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:layout_marginTop="20dp"
+                    android:drawableStart="@drawable/phone"
+                    android:drawableLeft="@drawable/phone"
+                    android:drawablePadding="12dp"
+                    android:hint="Email Address"
+                    android:inputType="textWebEmailAddress"
+                    android:padding="10dp"
+                    android:textColorHint="@color/light_gray"
+                    android:textSize="14sp"
+                    app:boxStrokeColor="@color/black"
+                    app:boxStrokeWidth="10dp"
+                    app:boxStrokeWidthFocused="2dp"
+                    app:endIconMode="clear_text"
+                    app:endIconTint="@color/black"
+                    app:hintTextColor="@color/black"
+                    app:startIconTint="@color/black">
+
+                </EditText>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <Button
+                android:id="@+id/numberSave"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/cutsom_button"
+                android:text="Save &amp; continue"
+                android:textColor="@color/white"
+                app:backgroundTint="#007bff"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="@color/com_facebook_blue"></Button>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

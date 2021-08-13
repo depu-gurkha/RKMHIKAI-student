@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="online.rkmhikai.ui.classroom.ClassRoomFragment"
+        android:label="@string/menu_classroom"
+        tools:layout="@layout/fragment_classroom" />
+
+    <fragment
+        android:id="@+id/nav_contact"
+        android:name="online.rkmhikai.ui.contactUs.ContactUs"
+        android:label="@string/menu_Contact"
+        tools:layout="@layout/fragment_contact_us" />
+
+    <fragment
+        android:id="@+id/nav_about"
+        android:name="online.rkmhikai.ui.aboutUs.AboutUsFragment"
+        android:label="@string/menu_About"
+        tools:layout="@layout/fragment_about_us" />
+    <fragment
+        android:id="@+id/nav_notification"
+        android:name="online.rkmhikai.ui.notification.NotificationFragment"
+        android:label="@string/menu_Notification"
+        tools:layout="@layout/notification_fragment" />
+    <fragment
+        android:id="@+id/nav_server_address"
+        android:name="online.rkmhikai.ui.serverName.ServerNameFragment"
+        android:label="@string/menu_Server_Address"
+        tools:layout="@layout/server_name_fragment" />
+</navigation>

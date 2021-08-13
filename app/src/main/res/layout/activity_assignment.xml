@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnUpload"
+        android:layout_width="138dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="36dp"
+        android:background="@drawable/rounded_button"
+        android:text="Upload"
+        app:backgroundTint="#47b2e4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.94"
+        app:layout_constraintStart_toEndOf="@+id/btn_dwnld"
+        app:layout_constraintTop_toBottomOf="@+id/iv_assignment" />
+
+    <Button
+        android:id="@+id/btn_dwnld"
+        android:layout_width="138dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/rounded_button"
+        android:text="Downlaod"
+        app:backgroundTint="#47b2e4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_assignment" />
+
+    <TextView
+        android:id="@+id/txtParticipantClass"
+        android:layout_width="wrap_content"
+        android:layout_height="31dp"
+        android:layout_marginTop="50dp"
+        android:text="Download/Upload Assignment "
+        android:textSize="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!--    <ProgressBar-->
+<!--        android:id="@+id/pb_assignment"-->
+<!--        style="?android:attr/progressBarStyleHorizontal"-->
+<!--        android:layout_width="336dp"-->
+<!--        android:layout_height="36dp"-->
+<!--        android:layout_marginStart="107dp"-->
+<!--        android:layout_marginTop="60dp"-->
+<!--        android:layout_marginEnd="256dp"-->
+<!--        app:layout_constraintBottom_toTopOf="@+id/btn_dwnld"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.243"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/txtParticipantClass"-->
+<!--        app:layout_constraintVertical_bias="0.105" />-->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Note: The Downloaded assignment can be located at Download folder. Also uploading is only possible from website click upload button to access the website"
+        android:textSize="18dp"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn_dwnld" />
+
+    <ImageView
+        android:id="@+id/iv_assignment"
+        android:layout_width="175dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:src="@drawable/ic_baseline_file_present"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintBottom_toTopOf="@+id/btn_dwnld"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtParticipantClass"
+        app:layout_constraintVertical_bias="0.0">
+
+    </ImageView>
+</androidx.constraintlayout.widget.ConstraintLayout>
